@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fashion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .navbar{
+            background-color:snow;
+            border-radius: 5px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            height: 70%;
+            z-index: 1000;
+            top: 0; 
+            width: 100%; 
+            margin: 10px;
+            margin-bottom: 30px;
+        }
+        .nav-items a{
+        text-decoration: none;
+        color: black;
+        font-size: 140%;
+     }
+     .nav-items {
+        position: absolute;
+        right: 20px;
+        font-family: 'Times New Roman', Times, serif;
+     }
+     .nav-items a:hover {
+        color: red;
+        font-size: 170%;
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: 0.5s;
+     }
+     .photo img{
+        height: 50px;
+        width: 150px;
+        margin: 10px;
+     }
+     .fashion img{
+        height: 700px;
+        width: 1000px;
+        padding: 20px;
+     }
+     .fashion{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+     }
+     h2{
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 70px;
+     }
+     html{
+        scroll-behavior: smooth;
+     }
+     .info pre{
+        background-color: white;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 150%;
+     }
+     .sports img{
+        height: 400px;
+        width: 350px;
+        border-radius: 5px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+      }
+      .sports img:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: 1s;
+      }
+      .dev{
+        display: grid;
+      }
+      .dev img{
+        height: 400px;
+        width: 240px;
+        margin-left: 70px;
+        margin-right: 30px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+      }
+      .makers{
+        display: flex;
+      }
+      .infoo{
+        display: flex;
+      }
+      /* .dev2{
+        display: flex;
+      } */
+      /* .dev2 img{
+        height: 400px;
+        width: 220px;
+        margin-left: 70px;
+        margin-right: 30px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+      } */
+      .pre{
+        /* border: none;
+        background-color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        background-color: white;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 150%;
+      }
+</style>
+<body>
+    <div class="container2">
+        <div class="navbar">
+            <div class="photo">
+                <img src="Images/l1.jpeg" alt="">
+            </div>
+            <div class="nav-items">
+                <a href="#mens">Mens</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#tees">T-shirts</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#women">women</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#about">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="login.html" target="_blank">Sign-in</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <h2>The Fashion</h2> <hr>
+        <div class="fashion">
+            <img src="Images/f1.webp" alt="">
+            <img src="Images/f2.avif" alt="">
+        </div>
+        <h2 id="mens">Trending Category Mens</h2> <hr>
+            <div class="container" style="width: 30%; margin-left: 10%;" >
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  
+                  <div class="conatiner3">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" >
+                    <div class="item active" style="background-color: none;">
+                      <img src="Images/mens1.jpg" alt="Adams" style="width:100%; height: 40%; ; ">
+                    </div>    
+                    <div class="item">
+                      <img src="Images/mens2.jpg" alt="Dark" style="width:100%; height: 40%; ">
+                    </div>
+                    <div class="item">
+                        <img src="Images/mens3.jpg" alt="Dark" style="width: 100%; height: 40% ;">
+                      </div>
+                      <div class="item">
+                        <img src="Images/mens4.jpg" alt="Dark" style="width: 100%; height: 40% ;">
+                      </div>
+                      <div class="item">
+                        <img src="Images/mens5.webp" alt="Dark" style="width: 100%; height: 40% ;">
+                      </div>
+                  </div>
+                  </div>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev" >
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                
+        </div>
+        <div class="info">
+            <pre>
+                Men's Wear is a 1953 painting by Australian artist John Brack.
+                The painting depicts the interior of a menswear store, including the proprietor and some mannequins,
+                standing in front of displays of ties and trousers. A mirror in the background reflects a silhouette 
+                of the artist
+                It seems to be a simple image of an ordinary shop, but its simplicity is deceptive.
+                There’s a complex interaction of lines of sight, for a start; and the 
+                jokey inclusion of the silhouetted figure opens up the interior space to the space outside the shop,
+                outside the pictorial space even. And there’s a play - inspired, perhaps, by Magritte - between man,
+                mannequin and silhouette that creates ambiguity. It’s a sort of surrealism of the high street.
+            </pre>
+        </div>
+        <h2 id="tees">Trending Categories T-shirts</h2> <hr>
+        <div class="sports">
+            <img src="Images/tshirt2.webp" alt="">
+            <img src="Images/tshirt1.webp" alt="">
+            <img src="Images/tshirt3.webp" alt="">
+            <img src="Images/tshirt4.webp" alt="">
+            <img src="Images/tshirt5.webp" alt="">
+            <img src="Images/tshirt6.webp" alt="">
+        </div>
+        <h2 id="women">Trending Categories Women</h2> <hr>
+        <div class="sports">
+            <img src="Images/women1.webp" alt="">
+            <img src="Images/women2.webp" alt="">
+            <img src="Images/women3.png" alt="">
+            <img src="Images/women4.jpg" alt="">
+            <img src="Images/women5.jpg" alt="">
+            <img src="Images/women6.webp" alt="">
+        </div>
+        <h2>Developer</h2><hr>
+        <div class="makers">
+        <div class="dev">
+          <img src="Images/me1.jpeg" alt="">
+        </div>
+        <div class="infoo">
+          <pre class="pre">
+              Cheer up to everyone looking at my website now,
+              I'm a student of Computer Applications. 
+              I love exploring all the interesting things like websites, 
+              applications etc. and to see how they work especially the things 
+              which works on self creation and with the help of Artificial 
+              Intelligence.
+          </pre>
+        </div>
+        </div>
+        <!-- <div class="makers">
+          <div class="infoo">
+            <pre class="pre" style="margin-top:70px;">
+              Cheer up to everyone looking at my website now,
+              I'm a student of Computer Applications. 
+              I love exploring all the interesting things like websites, 
+              applications etc. and to see how they work especially the things 
+              which works on self creation and with the help of Artificial 
+              Intelligence.
+            </pre>
+          </div>
+          <div class="dev2" style="justify-content: right; display: block;">
+            <img src="Images/me1.jpeg" alt="">
+          </div> 
+        </div>-->
+        <br>
+        <h2 id="about">About us</h2><hr>
+        <div class="info">
+            <pre>
+                The Saif's fashion  is a multinational clothing company based in Sweden 
+                that focuses on fast-fashion clothing for men, women, teenagers, and children. 
+                As of 23 June 2022, Saif's Fashion&M Group operates in 75 geographical markets with 4,801 stores
+                under the various company brands, with 107,375 full-time equivalent positions.
+
+                The Saif's fashion is the second largest international clothing retailer, 
+                behind Inditex, the parent company of Zara. Saif company was founded by Saif Pasha, 
+                and its current CEO is Saif Pasha.
+              <hr>
+                <a class="anchor2" href="https://www.linkedin.com/in/saif-pasha-59643b197/" target="_blank"><img class="logo" style="height: 40px; width: 40px; box-shadow: none;" src="Images/linkedin.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="anchor2" href="https://www.hackerrank.com/saifpashanaaz" target="_blank"><img class="logo" style="height: 40px; width: 40px; box-shadow: none;" src="Images/hacker.png" alt=""></a>
+            </pre>
+        </div>
+        
+        <h4 style="text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">CopyRights@SaifpashaCompany&copy;</h4>
+    </div>
+</body>
+</html>
